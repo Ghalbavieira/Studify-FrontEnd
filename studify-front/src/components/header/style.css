@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-header{
+    background: url('../../assets/img/fahim-muntashir-14JOIxmsOqA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box{
+    background: transparent;
+    color: var(--text-700);
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: 1px solid var(--bg-dark);
+
+    width: 100%;
+    max-width: 575px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+.header-box button {
+    padding: 10px 20px;
+    background: var(--btn-color);
+    color: var(--text-700);
+}
